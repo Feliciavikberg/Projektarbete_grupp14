@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="053c8415-f80d-4ed1-86e7-6a41e9544ad2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50431/PassageService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PassageService.xsd" MetadataType="Schema" ID="a8e408ab-2b84-40bb-b057-7144e4b7de6d" SourceId="1" SourceUrl="http://localhost:50431/PassageService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PassageService.wsdl" MetadataType="Wsdl" ID="84cc83c2-b703-4fd6-ac45-cafa05b52615" SourceId="1" SourceUrl="http://localhost:50431/PassageService.svc?wsdl" />
+    <MetadataFile FileName="PassageService1.xsd" MetadataType="Schema" ID="b0bad130-0276-451d-8a7e-150399cb347a" SourceId="1" SourceUrl="http://localhost:50431/PassageService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PassageService.disco" MetadataType="Disco" ID="398997c1-e74a-4072-8372-ca6a922b2b7f" SourceId="1" SourceUrl="http://localhost:50431/PassageService.svc?disco" />
+    <MetadataFile FileName="PassageService2.xsd" MetadataType="Schema" ID="241a64e2-3788-401e-b8a8-e645ca1929fd" SourceId="1" SourceUrl="http://localhost:50431/PassageService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
